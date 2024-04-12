@@ -1,5 +1,6 @@
 #!/bin/bash
 
-sudo xbps-install sway dbus elogind polkit foot wofi pavucontrol 
+sudo xbps-install sway dbus elogind polkit foot wofi pavucontrol breeze breeze-gtk breeze-cursors thunar gtk4 qt5 qt5ct
 sudo ln -s /etc/sv/dbus /var/service
 sudo ln -s /etc/sv/polkitd /var/service
+
