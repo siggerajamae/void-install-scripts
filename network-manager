@@ -1,0 +1,2 @@
+sudo xbps-install NetworkManager
+sudo ln -s /etc/sv/NetworkManager /var/service

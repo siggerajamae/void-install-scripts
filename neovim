@@ -1,0 +1,2 @@
+mkdir ~/.config
+git clone https://github.com/siggerajamae/nvim ~/.config
