@@ -1,1 +1,3 @@
+#!/bin/bash
+
 sudo xbps-install linux-firmware-amd mesa-dri vulkan-loader mesa-vulkan-radeon mesa-vaapi mesa-vdpau

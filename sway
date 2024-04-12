@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sudo xbps-install sway dbus elogind polkit
+sudo ln -s /etc/sv/dbus /var/service
+sudo ln -s /etc/sv/polkitd /var/service
+mkdir ~/.config
+git clone https://github.com/siggerajamae/sway ~/.config
